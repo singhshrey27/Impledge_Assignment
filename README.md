@@ -1,10 +1,10 @@
 # Impledge_Assignment
 Word Composition Problem 
 
-Program Overview:
+**Program Overview:**
 This program is designed to read input files containing alphabetically sorted words and identify the longest and second longest compounded words from the input. A compounded word is one that can be constructed by concatenating shorter words found in the same file.
 
-Design Decisions and Approach:
+**Design Decisions and Approach:**
 Data Structure: We use a Trie data structure to efficiently store and retrieve words from the input. This allows us to check if a word can be formed by combining shorter words.
 
 Algorithm: We utilize a dynamic programming approach to determine if a word can be formed by combining shorter words. This ensures that we find the longest and second longest compounded words.

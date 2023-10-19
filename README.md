@@ -7,7 +7,7 @@ This program is designed to read input files containing alphabetically sorted wo
 **Design Decisions and Approach:**\
 Data Structure: We use a Trie data structure to efficiently store and retrieve words from the input. This allows us to check if a word can be formed by combining shorter words.
 
-**Algorithm and Explaination**:\
+**Algorithm and Explaination**:
 
 1.First of all inputs of the files are taken and sended it to the function, here in this function I have created a vector and pushed the input words into the vector\
 2.Then words are being sorted according to their decreasing length,longest one first then second longest one and so on.\
